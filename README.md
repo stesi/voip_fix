@@ -1,2 +1,1 @@
-# voip_fix
-# voip_fix
+# fix problema su google chrome e velocizzato nella risposta della chiamata
