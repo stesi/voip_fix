@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_backend"
+              name="trip-timeline_assets_backend" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+
+            <script type="text/javascript"
+                    src="/voip_fix/static/src/js/user_agent.js"></script>
+
+        </xpath>
+    </template>
+</odoo>
