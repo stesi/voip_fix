@@ -1,29 +1,25 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "voip_fix",
-
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    'name': "Voip fix wss",
 
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
 
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
+    'author': "Stesi consulting srl",
+    'website': "http://www.stesi.consulting",
+
+    'license': 'OPL-1',
+
     'category': 'Uncategorized',
-    'version': '0.1',
+    'version': '18.0.0.1',
 
     # any module necessary for this one to work correctly
     'depends': ['base','voip'],
 
-    # always loaded
-    'data': [
-        # 'security/ir.model.access.csv',
-        'views/web_assets_backend.xml'
-    ],
+  "assets": {
+        "web.assets_backend": [
+            "voip_fix/static/src/js/*"
+        ],
+    },
     # only loaded in demonstration mode
     'demo': [
 
