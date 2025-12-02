@@ -10,16 +10,11 @@
     'license': 'OPL-1',
 
     'category': 'Uncategorized',
-    'version': '18.0.0.1',
+    'version': '19.0.0.2',
 
+    'pre_init_hook': '_pre_init_partner',
     # any module necessary for this one to work correctly
-    'depends': ['base','voip'],
-
-  "assets": {
-        "web.assets_backend": [
-            "voip_fix/static/src/js/*"
-        ],
-    },
+    'depends': ['base'],
     # only loaded in demonstration mode
     'demo': [
 
