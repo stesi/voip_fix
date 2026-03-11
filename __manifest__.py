@@ -10,7 +10,7 @@
     'license': 'OPL-1',
 
     'category': 'Uncategorized',
-    'version': '18.0.0.1',
+    'version': '19.0.0.1',
 
     # any module necessary for this one to work correctly
     'depends': ['base','voip'],
